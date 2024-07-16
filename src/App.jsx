@@ -4,20 +4,6 @@ import './App.css'
 
 function App() {
 
-  //* estilos
-
-  // const theme = {
-  //   background: 'black',
-  //   fontfamily: 'Helvetica',
-  //   fontColor: 'white',
-  //   botBubbleColor: 'violet',
-  //   userFontColor: 'white',
-  //   userBubbleColor: 'violet',
-  //   HeaderBGColor: 'violet',
-  //   HeaderFontColor: 'white',
-  //   HeaderFontSize: "20px"
-  // }
-
   const steps = [
     { id: "1", message: "Hola, soy Hotaru, ¿cómo estás? Dime tu nombre y comencemos...", trigger: "2" },
     { id: "2", user: true, trigger: "3" },
